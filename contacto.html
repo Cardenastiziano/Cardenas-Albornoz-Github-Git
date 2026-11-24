@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-icon">🌿</span> GitMaster
+                <span class="logo-icon">🚀</span> <span class="logo-text">GitMaster</span>
             </a>
             <nav class="nav-links">
                 <a href="index.html" class="nav-link">Inicio</a>
+                <a href="index.html#conceptos" class="nav-link">Conceptos</a>
+                <a href="index.html#comandos" class="nav-link">Comandos</a>
                 <a href="contacto.html" class="nav-link active">Contacto</a>
             </nav>
         </div>
@@ -25,29 +27,72 @@
     <main class="section">
         <div class="container">
             <div class="section-header">
+                <span class="section-tag">Colaboración</span>
                 <h2>Equipo de Desarrollo</h2>
-                <p>Integrantes del Trabajo Práctico de Git y GitHub</p>
+                <p>Integrantes del Trabajo Práctico de Gestión con Git & GitHub</p>
             </div>
             <div class="grid-cards team-grid">
-                <article class="card">
+                <article class="card interactive-card">
                     <div class="card-icon">👨‍💻</div>
                     <h3>Tiziano Cárdenas</h3>
-                    <p class="role">Desarrollador & Gestión de Repositorio</p>
-                    <p>Configuración de ramas base, gestión de commits y estructura general del proyecto.</p>
+                    <p class="role">Gestión de Repositorio & Ramas</p>
+                    <p>Configuración del repositorio base, definición de la estructura semántica inicial y orquestación del flujo de branches y merge.</p>
+                    <div class="card-footer-tip">Rol: Líder Técnico & Git Manager</div>
                 </article>
-                <article class="card">
+                <article class="card interactive-card">
                     <div class="card-icon">👨‍💻</div>
                     <h3>Agustín Albornoz</h3>
-                    <p class="role">Desarrollador & Integración Continua</p>
-                    <p>Implementación de características, mejoras de interfaz y colaboración en ramas remotas.</p>
+                    <p class="role">Desarrollador & Colaborador Git</p>
+                    <p>Integración de funcionalidades, desarrollo y pruebas de ramas feature, revisión de commits y trabajo colaborativo distribuido.</p>
+                    <div class="card-footer-tip">Rol: Frontend & Git Contributor</div>
                 </article>
             </div>
         </div>
     </main>
 
     <footer class="footer">
-        <div class="container footer-content">
-            <p>&copy; 2026 GitMaster. Desarrollado por <strong>Tiziano Cárdenas</strong> y <strong>Agustín Albornoz</strong>.</p>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <span class="logo-icon">🚀</span> <strong>GitMaster</strong>
+                </div>
+                <p class="footer-desc">
+                    Guía didáctica y práctica desarrollada para el Trabajo Práctico de Git y GitHub.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Navegación</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#conceptos">Conceptos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Integrantes</h4>
+                <div class="team-badge">
+                    <span class="avatar">TC</span>
+                    <div>
+                        <strong>Tiziano Cárdenas</strong>
+                        <small>Gestión de Repositorio & Ramas</small>
+                    </div>
+                </div>
+                <div class="team-badge">
+                    <span class="avatar">AA</span>
+                    <div>
+                        <strong>Agustín Albornoz</strong>
+                        <small>Estructura & Colaboración Git</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>&copy; 2026 GitMaster | Trabajo Práctico de Git y GitHub. Todos los derechos reservados.</p>
+                <div class="footer-status">
+                    <span class="status-dot"></span> Rama verificada
+                </div>
+            </div>
         </div>
     </footer>
 </body>
