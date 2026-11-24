@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guía interactiva y completa sobre Git y GitHub. Aprende flujos de trabajo profesionales, ramas y comandos esenciales.">
+    <title>GitMaster | Guía Práctica de Git & GitHub</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🌿</span> GitMaster
+            </a>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link active">Inicio</a>
+                <a href="#conceptos" class="nav-link">Conceptos</a>
+                <a href="#comandos" class="nav-link">Comandos</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <span class="badge">Trabajo Práctico Colaborativo</span>
+                <h1 class="hero-title">Domina el Control de Versiones con Git & GitHub</h1>
+                <p class="hero-subtitle">
+                    Aprende los fundamentos del desarrollo colaborativo profesional: ramas, commits atómicos, fusión de código y resolución de conflictos.
+                </p>
+                <div class="hero-actions">
+                    <a href="#comandos" class="btn btn-primary">Ver Comandos Clave</a>
+                    <a href="contacto.html" class="btn btn-secondary">Conocer al Equipo</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="conceptos" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Pilares Fundamentales</h2>
+                    <p>Entendiendo el ciclo de vida del código en Git</p>
+                </div>
+                <div class="grid-cards">
+                    <article class="card">
+                        <div class="card-icon">📦</div>
+                        <h3>Repositorios Locales & Remotos</h3>
+                        <p>Tu copia local te da velocidad y control total sin depender de conexión, mientras que GitHub centraliza el código para el equipo.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">🔀</div>
+                        <h3>Estrategias de Ramas (Branches)</h3>
+                        <p>Trabajar en ramas independientes como <code>feature/</code> asegura que la rama <code>main</code> se mantenga siempre estable y lista para producción.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">⚡</div>
+                        <h3>Commits Atómicos</h3>
+                        <p>Cada confirmación de cambios debe representar una unidad lógica de trabajo, con mensajes claros e imperativos para facilitar auditorías.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="comandos" class="section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Comandos Esenciales en Terminal</h2>
+                    <p>Las instrucciones diarias de todo desarrollador profesional</p>
+                </div>
+                <div class="commands-grid">
+                    <div class="command-box">
+                        <span class="cmd-label">Clonación inicial</span>
+                        <code>git clone &lt;url-del-repositorio&gt;</code>
+                        <p>Descarga un proyecto remoto con todo su historial de cambios.</p>
+                    </div>
+                    <div class="command-box">
+                        <span class="cmd-label">Crear y cambiar de rama</span>
+                        <code>git switch -c feature/nombre-tarea</code>
+                        <p>Crea una rama limpia aislada para desarrollar una nueva funcionalidad.</p>
+                    </div>
+                    <div class="command-box">
+                        <span class="cmd-label">Confirmar cambios atómicos</span>
+                        <code>git commit -m "feat: descripción clara"</code>
+                        <p>Guarda una instantánea de los cambios agregados con <code>git add</code>.</p>
+                    </div>
+                    <div class="command-box">
+                        <span class="cmd-label">Fusionar trabajo a main</span>
+                        <code>git merge feature/nombre-tarea</code>
+                        <p>Integra las mejoras verificadas de la rama de trabajo hacia la rama principal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 GitMaster. Desarrollado por <strong>Tiziano Cárdenas</strong> y <strong>Agustín Albornoz</strong>.</p>
+        </div>
+    </footer>
+</body>
+</html>
