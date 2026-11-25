@@ -19,6 +19,13 @@ Este proyecto fue desarrollado como parte de un trabajo práctico enfocado en el
 
 ---
 
+## 📄 Páginas del Sitio
+- **`index.html`**: Página principal con la guía interactiva de conceptos, comandos esenciales y flujo de trabajo en Git & GitHub.
+- **`contacto.html`**: Segunda página vinculada con la información del equipo (Tiziano Cárdenas y Agustín Albornoz) y un formulario de contacto.
+- **`estilos.css`**: Hoja de estilos compartida para mantener una interfaz moderna y responsiva en todo el sitio.
+
+---
+
 ## 🛠️ Tecnologías Utilizadas
 - **HTML5:** Marcado semántico y estructurado.
 - **CSS3:** Variables CSS, Flexbox, CSS Grid y diseño responsivo adaptado a dispositivos móviles y de escritorio.
